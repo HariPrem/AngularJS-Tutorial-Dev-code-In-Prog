@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="SharePoint App Feature" Id="a2bd3447-3e76-4b1a-bd5b-dc19518ea29f" Scope="Web" Title="AngularApp Feature1" Version="1.0.0.0">
+  <ElementManifests>
+    <ElementManifest Location="Pages\Elements.xml" />
+    <ElementFile Location="Pages\Default.aspx" />
+    <ElementFile Location="Pages\EventDetails.aspx" />
+    <ElementManifest Location="Scripts\Elements.xml" />
+    <ElementFile Location="Scripts\App.js" />
+    <ElementFile Location="Scripts\jquery-1.7.1.min.js" />
+    <ElementFile Location="Scripts\jquery-1.7.1.js" />
+    <ElementFile Location="Scripts\jquery-1.7.1.intellisense.js" />
+    <ElementFile Location="Scripts\LibraryFiles\bootstrap.js" />
+    <ElementFile Location="Scripts\LibraryFiles\bootstrap.min.js" />
+    <ElementFile Location="Scripts\LibraryFiles\jquery.min.js" />
+    <ElementFile Location="Scripts\LibraryFiles\underscore-1.4.4.min.js" />
+    <ElementFile Location="Scripts\LibraryFiles\Angular\angular.js" />
+    <ElementFile Location="Scripts\LibraryFiles\Angular\angular.min.js" />
+    <ElementFile Location="Scripts\LibraryFiles\Angular\angular-resource.js" />
+    <ElementFile Location="Scripts\LibraryFiles\Angular\angular-resource.min.js" />
+    <ElementFile Location="Scripts\LibraryFiles\Angular\angular-route.js" />
+    <ElementFile Location="Scripts\LibraryFiles\Angular\angular-route.min.js" />
+    <ElementFile Location="Scripts\LibraryFiles\Angular\angular-sanitize.js" />
+    <ElementFile Location="Scripts\LibraryFiles\Angular\angular-sanitize.min.js" />
+    <ElementFile Location="Scripts\Controllers\EventCtrl.js" />
+    <ElementFile Location="Scripts\Services\EventLogic.js" />
+    <ElementManifest Location="Content\Elements.xml" />
+    <ElementFile Location="Content\App.css" />
+    <ElementFile Location="Content\bootstrap.min.css" />
+    <ElementManifest Location="Images\Elements.xml" />
+    <ElementFile Location="Images\AppIcon.png" />
+  </ElementManifests>
+  <UpgradeActions>
+    <VersionRange>
+      <ApplyElementManifests>
+        <ElementManifest Location="Pages\Elements.xml" />
+        <ElementManifest Location="Scripts\Elements.xml" />
+        <ElementManifest Location="Content\Elements.xml" />
+        <ElementManifest Location="Images\Elements.xml" />
+      </ApplyElementManifests>
+    </VersionRange>
+  </UpgradeActions>
+</Feature>
