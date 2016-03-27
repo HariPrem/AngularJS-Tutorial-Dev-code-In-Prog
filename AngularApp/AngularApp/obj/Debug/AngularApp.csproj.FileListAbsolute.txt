@@ -1,3 +1,0 @@
-C:\Users\hariprasath\documents\visual studio 2012\Projects\AngularApp\AngularApp\bin\Debug\AngularApp.pdb
-C:\Users\hariprasath\documents\visual studio 2012\Projects\AngularApp\AngularApp\obj\Debug\AngularApp.dll
-C:\Users\hariprasath\documents\visual studio 2012\Projects\AngularApp\AngularApp\obj\Debug\AngularApp.pdb
